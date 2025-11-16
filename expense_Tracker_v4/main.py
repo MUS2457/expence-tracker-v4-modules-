@@ -6,7 +6,7 @@ from datetime import datetime
 # Get expenses from user
 expenses = input_data()
 
-# 2️ Calculate statistics
+#  Calculate statistics
 total = tl_expences(expenses)
 per_category = tl_per_category(expenses)
 top_low = top_low_product(expenses)
